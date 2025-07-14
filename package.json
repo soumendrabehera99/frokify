@@ -1,0 +1,25 @@
+{
+  "name": "frokify",
+  "version": "1.0.0",
+  "description": "Receipe application",
+  "default": "index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Soumendra Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4",
+    "parcel": "^2.15.4",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.43.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
